@@ -1,0 +1,31 @@
+<div class='modal-style'>
+
+    <div class='modal-style-header'>
+      <h3>Eliminación de usuario</h3>
+      <i class="fa-solid fa-xmark style-icon" (click)="backClicked()"></i>
+    </div>
+
+    <hr/>
+
+    <div>
+      <p>Ingresa el número de documento del usuario que quieres eliminar</p>
+  
+      <div>
+        <div class="account-details">
+          <div>
+            <label>Número de documento:</label>
+            &nbsp;
+            <input [(ngModel)]="docu" required />
+          </div>
+          <div>
+            <button id="btn-buscar-usuario" (click)="searchUser()">
+              Eliminar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+</div>

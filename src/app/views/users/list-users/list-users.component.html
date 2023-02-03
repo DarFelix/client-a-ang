@@ -1,0 +1,41 @@
+<div class='modal-style'>
+
+    <div class='modal-style-header'>
+      <h3>Listado de usuarios</h3>
+      <i class="fa-solid fa-xmark style-icon" (click)="backClicked()"></i>
+    </div>
+
+    <hr/>
+
+    <div class='row'>
+      <div class='col table-modal'>
+        
+          <table class="table table-striped">
+              <thead >
+                  <tr>
+                      <th><div>#</div></th>
+                      <th><div>Nombre</div></th>
+                      <th><div>Documento</div></th>
+                      <th><div>Altura(in)</div></th>
+                      <th><div>Teléfono</div></th>
+                      <th><div>Rol</div></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  
+                              <tr *ngFor="let user of users; let i = index">
+                                  <td>{{i + 1}}</td>
+                                  <td>{{user.nombres}}</td>
+                                  <td>{{user.numero_doc}}</td>
+                                  <td>{{user.height}}</td>
+                                  <td>{{user.telefono}}</td>
+                                  <td>{{user.rol}}</td>
+                              </tr>
+                          
+              </tbody>
+          </table>
+      </div>
+  </div>
+        
+
+</div>

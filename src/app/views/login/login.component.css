@@ -1,0 +1,42 @@
+.card {
+    border-color: #67b5dd;
+    border-radius: 0;
+  }
+  
+  .card-custom {
+    border-color: #ced4da;
+  }
+
+  .card-header {
+    background-color: #67b5dd;
+    border-radius: 0%;
+    border-bottom: 0ch;
+  }
+
+  .card-header:first-child {
+    border-radius: 0;
+  }
+
+  .card-header-login {
+    background-color: white;
+  }
+
+  .card-title {
+    color: white;
+  }
+  
+  .card-title-login {
+    color: #263d57
+  }
+  
+  .card-custom-login {
+    padding: 50px;
+  }
+
+  .login-sub-text {
+    color: rgb(148, 160, 178);
+  }
+
+  .space-btn{
+    margin: 10px;
+  }

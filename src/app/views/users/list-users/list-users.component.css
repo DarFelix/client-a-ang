@@ -1,0 +1,33 @@
+.modal-style {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(203, 217, 228);
+    width: 100%;
+    padding: 2rem 1.5rem;
+    height: 100%;
+    z-index: 0
+    
+}
+
+.modal-style-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.style-icon{
+    font-size: 2em;
+} 
+
+.table-modal{
+    overflow: auto;
+    height: 500px;
+    border-collapse: collapse;
+  }
+
+.table-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

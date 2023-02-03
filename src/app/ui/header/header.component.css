@@ -1,0 +1,21 @@
+.logged-user {
+    color: #fff;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+  
+  .logged-user:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16.01px;
+  }
+  
+  .logged-user span {
+    margin-right: 10px;
+  }
+
+  .space-elements{
+    justify-content: space-between;
+  }
